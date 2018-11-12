@@ -57,7 +57,7 @@ ld_avg<- function( LD_data, bin_index_set ) {
 #caculating the average LD value
 LDdecay <- ld_avg(LD_data,bin_index_set)
 
-write.table(LDdecay,file = ope$output,  row.names=F)
+write.table(LDdecay,file = opt$output,  row.names=F)
 
 
 
