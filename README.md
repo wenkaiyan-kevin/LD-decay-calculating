@@ -1,6 +1,6 @@
 # LD-decay-calculating
 ## Directions
-- First use the [Haploview](https://www.broadinstitute.org/haploview/downloads) tool change vcf format file into the ped and info file .
+- Firstly, Using the [Haploview](https://www.broadinstitute.org/haploview/downloads) tool change vcf format file into the ped and info file .
 
 __example__:
 ```
