@@ -27,7 +27,7 @@ if (is.null(opt$input) | is.null(opt$LD_length) | is.null(opt$bin_size)){
 ## program...
 
 #Reading the LD values
-LD_data <- read.table(opt$input,header=F)[,c(5,8)] 
+LD_data <- read.table(opt$input,header=T)[,c(5,8)] 
 
 #Produce the index of bin
 bin_index_set <- c(seq(0,opt$LD_length,opt$bin_size))                
