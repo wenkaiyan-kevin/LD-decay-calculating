@@ -24,6 +24,8 @@ java -jar ~/biosoftware/Haploview.jar -n -pedfile example.ped -info example.info
 
 - Using the [vcftools](http://vcftools.sourceforge.net/man_latest.html) to caculate the LD values .
 
+__example__:
+
 ```
 vcftools --vcf test.vcf --geno-r2 --ld-window-bp 100000 --out ld_window_100000 --min-r2 0.000001
 
